@@ -86,12 +86,11 @@ make run FILE=seq.sv WAVE=1 VCD=seq.vcd
 11. `template.sv`  
     Starter file for creating new exercises by only editing patterns and assertions.
 
-## What makes this useful for teaching
+## Why This Structure Works for Learning
 
-- One concept per file.
-- Shared harness avoids boilerplate drift.
-- Easy to mutate stimulus and observe proof/refutation behavior.
-- Good bridge from simulation intuition to temporal logic reasoning.
+- One SVA concept per file.
+- Shared harness keeps boilerplate minimal and consistent.
+- Small stimulus edits quickly show proof/refutation changes.
 
 ## Suggested learning order
 
