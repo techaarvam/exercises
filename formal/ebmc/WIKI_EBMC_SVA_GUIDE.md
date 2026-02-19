@@ -23,6 +23,7 @@ Then it includes the base harness.
 If you are using the Debian package path (same flow used here):
 
 Download page: https://www.cprover.org/ebmc/
+Compile/build reference: https://github.com/diffblue/hw-cbmc/blob/main/COMPILING.md
 
 ```bash
 sudo dpkg -i <ebmc-package>.deb
@@ -140,3 +141,9 @@ done
 
 This is intentionally a **learning-first** formal set.  
 If you are new to SVA, EBMC gives you a clear, open-source path to practice properties and understand counterexamples without a heavy tool setup.
+
+## Known issue (`[*]` / `[*0:$]` case)
+
+- Tracking issue: https://github.com/diffblue/hw-cbmc/issues/1651
+- The `rep_star.sv` example currently reproduces this behavior.
+- Reproduced with packaged EBMC `5.9` and also with source-built EBMC `5.10` (`5.10 (ebmc-5.9-43-g3cc92ecd)`), so compiling from source did not change this result.
