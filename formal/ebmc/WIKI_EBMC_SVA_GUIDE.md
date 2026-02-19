@@ -18,6 +18,28 @@ The shared harness is in `ebmc_example_base.svh`, and each example file only def
 
 Then it includes the base harness.
 
+## Install EBMC (Ubuntu/Debian)
+
+If you are using the Debian package path (same flow used here):
+
+Download page: https://www.cprover.org/ebmc/
+
+```bash
+sudo dpkg -i <ebmc-package>.deb
+```
+
+If `dpkg` reports missing dependencies:
+
+```bash
+sudo apt-get install -f
+```
+
+Verify installation:
+
+```bash
+ebmc --version
+```
+
 ## Run setup
 
 From `sv2/examples/formal/ebmc`:

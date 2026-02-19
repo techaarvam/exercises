@@ -2,6 +2,28 @@
 
 SystemVerilog formal examples for EBMC with a shared harness and minimal per-example files.
 
+## Install EBMC (Ubuntu/Debian)
+
+If you installed from a downloaded `.deb` package:
+
+Download page: https://www.cprover.org/ebmc/
+
+```bash
+sudo dpkg -i <ebmc-package>.deb
+```
+
+If dependency errors appear, run:
+
+```bash
+sudo apt-get install -f
+```
+
+Verify:
+
+```bash
+ebmc --version
+```
+
 ## Repository Layout
 
 - `ebmc_example_base.svh`: Shared boilerplate.
