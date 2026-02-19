@@ -7,6 +7,7 @@ SystemVerilog formal examples for EBMC with a shared harness and minimal per-exa
 If you installed from a downloaded `.deb` package:
 
 Download page: https://www.cprover.org/ebmc/
+Compile/build reference: https://github.com/diffblue/hw-cbmc/blob/main/COMPILING.md
 
 ```bash
 sudo dpkg -i <ebmc-package>.deb
