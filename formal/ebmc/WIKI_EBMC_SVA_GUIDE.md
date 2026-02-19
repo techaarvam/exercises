@@ -43,7 +43,7 @@ ebmc --version
 
 ## Run setup
 
-From `sv2/examples/formal/ebmc`:
+From `examples/formal/ebmc`:
 
 ```bash
 make run
