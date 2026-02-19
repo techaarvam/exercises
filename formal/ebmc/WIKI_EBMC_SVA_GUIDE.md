@@ -1,6 +1,6 @@
 # Learning Formal SVA with EBMC: A Practical Walkthrough
 
-If you are learning SystemVerilog Assertions (SVA), open-source options are still less visible than simulation-first flows.  
+If you are learning SystemVerilog Assertions (SVA), open-source options are less visible.  
 This directory uses **EBMC** as a lightweight way to learn temporal operators with small, focused examples.
 
 ## Why this set exists
@@ -137,10 +137,6 @@ for f in non_overlapping.sv overlapping.sv delay_1_3.sv delay_1_inf.sv repeat.sv
 done
 ```
 
-## Final note
-
-This is intentionally a **learning-first** formal set.  
-If you are new to SVA, EBMC gives you a clear, open-source path to practice properties and understand counterexamples without a heavy tool setup.
 
 ## Known issue (`[*]` / `[*0:$]` case)
 
